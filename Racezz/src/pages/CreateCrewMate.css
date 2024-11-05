@@ -1,0 +1,21 @@
+.button-container {
+    display: flex; /* Use flexbox to align buttons */
+    justify-content: center; /* Center buttons horizontally */
+    gap: 40px; /* Space between buttons */
+  }
+  
+  button {
+    padding: 10px 20px; /* Increased padding for a better appearance */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #7700ff; /* Button background color */
+    color: #fff; /* White text */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
